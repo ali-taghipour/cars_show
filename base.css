@@ -1,0 +1,105 @@
+﻿body {
+    margin:0;
+    padding:0;
+}
+#all {
+   // border: 1px solid #ccc;
+    margin: 50px auto;
+    width: 800px;
+    height: 950px;
+    text-align: center;
+}
+#all > #big{
+    overflow:hidden;
+    cursor:pointer;
+    position:relative;
+    //border:1px solid #ccc;
+    margin:0 auto;
+    width:600px;
+    height:300px;
+}
+#all > #big >img{
+    width:70%;
+}
+#all > #big:hover > div{
+    transition:1s;
+    top:120px;
+    right:25px;
+}
+#all > #big > div{
+    transition:0.6s;
+    position:absolute;
+    //border:1px solid red;
+    background:brown;
+    width:400px;
+    height:30px;
+    top:120px;
+    right:-430px;
+}
+#all > #big:hover > div > p{
+    right:-20px;
+}
+#all > #big > div > p{
+    transition:1.2s;
+    position:relative;
+    top:-9px;
+    //border:1px solid red;
+    background:orange;
+    right:20px;
+}
+#all > #button{
+    //border:1px solid #ccc;
+    border-radius:7px;
+    background:#b6ff00;
+    color:firebrick;
+    cursor:pointer;
+    width:780px;
+    margin:5px auto;
+} 
+#all > #grid{
+    //border:1px solid #ccc;
+    margin:1px auto;
+    width:98%;
+    height:550px;
+}
+#all > #grid > .items{
+    position:relative;
+    overflow:hidden;
+    //border:1px solid #ccc;
+    cursor:pointer;
+    margin:5px 3px;
+    float:left;
+    width:31.5%;
+    height:150px;
+}
+#all > #grid > .items > img{
+    width:90%;
+}
+#all > #grid > .items:hover > div{
+    transition:1.3s;
+    top:50px;
+    right:13px;
+}
+#all > #grid > .items > div{
+    transition:0.6s;
+    position:absolute;
+    //border:1px solid red;
+    background:brown;
+    width:200px;
+    height:23px;
+    font-size:14px;
+    top:50px;
+    right:-220px;
+}
+#all > #grid > .items:hover > div > p{
+    right:-10px;
+}
+#all > #grid > .items > div > p{
+    transition:1.2s;
+    position:relative;
+    top:-11px;
+    //border:1px solid red;
+    background:orange;
+    right:20px;
+}
+
